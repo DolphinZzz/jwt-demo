@@ -1,0 +1,9 @@
+# 应用服务 WEB 访问端口
+server:
+  port: 28080
+spring:
+  application:
+    name: jwt-demo
+audience:
+  base64Secret: and0LWRlbW8= #密钥
+  expire: 60000 # 过期时间一分钟
